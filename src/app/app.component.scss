@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  min-width: 230px;
+  min-height: 100%;
+  padding: 15px;
+  background-color: #888099;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+}
+
+header {
+  min-height: 60px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+  background-color: #f5eff9;
+}
+
+footer {
+  min-height: 45px;
+  border-top: 1px solid grey;
+  margin-top: auto;
+  background-color: #f5eff9;
+}
