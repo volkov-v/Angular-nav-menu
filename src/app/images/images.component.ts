@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger, transition, animate, style } from '@angular/animations'
+import { trigger, transition, animate, style } from '@angular/animations';
 
 @Component({
   selector: 'app-images',
   templateUrl: './images.component.html',
   styleUrls: ['./images.component.scss'],
-  animations:[
+  animations: [
     trigger('fade', [
       transition('void => *', [style({ opacity: 0 }), animate('300ms', style({ opacity: 1 }))]),
       transition('* => void', [style({ opacity: 1 }), animate('300ms', style({ opacity: 0 }))]),
